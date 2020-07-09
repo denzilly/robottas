@@ -14,7 +14,7 @@ from generator import get_name_email, get_dob, get_country
 from xpaths import get_xpaths
 from helpers import update_accounts_list, get_drivers
 
-
+drivers = ['N.Latifi', 'G. Russell', 'K. Magnussen', 'A. Giovinazzi', 'L. Stroll', 'S. Perez']
 
 def create_account():
 
@@ -97,13 +97,22 @@ def create_account():
     ActionChains(driver).key_down(Keys.CONTROL).send_keys("-").key_up(Keys.CONTROL).perform();
     element = driver.find_element_by_class_name("lineup-picker__card__body__listing")
     html = element.get_attribute('innerHTML')
-    get_drivers(html)
-    time.sleep(5)
+    driver_df = get_drivers(html)
+    time.sleep(1)
+    print(driver_df)
+
+    for x in drivers:
+        xpath = driver_df.loc[driver_df["name"] == x]["xpath_id"].item()
+        print(xpath)
+        driver.find_element_by_xpath(xpath).click()
+        time.sleep(1)
 
 
 
 
-    #driver.close()
+
+
+    driver.close()
 
 
 

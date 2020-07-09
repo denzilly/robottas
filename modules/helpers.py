@@ -25,7 +25,8 @@ def get_drivers(html):
                       "team" :"text--uppercase players-list__row__content__meta__item players-list__row__content__meta__item--team",
                       "picked" : "players-list__row__content__meta__item players-list__row__content__meta__item--picked",
                       "score" : "players-list__row__content__meta__item players-list__row__content__meta__item--score",
-                      "price" :"players-list__row__price"
+                      "price" :"players-list__row__price",
+                      "xpath_id": "players-list__row__add-button"
              }
 
 
@@ -37,9 +38,11 @@ def get_drivers(html):
                    "team": x.findChildren("li", {"class": tags["team"]})[0].text.strip(),
                    "picked": x.findChildren("li", {"class": tags["picked"]})[0].text.strip(),
                    "score": x.findChildren("li", {"class": tags["score"]})[0].text.strip(),
-                   "price": x.findChildren("div", {"class": tags["price"]})[0].text.strip()
+                   "price": x.findChildren("div", {"class": tags["price"]})[0].text.strip(),
+                   "xpath_id": f"""// *[ @ id = "{x.findChildren("button", {"class": tags["xpath_id"]})[0].get('id')}"]"""
                 }
 
         driver_df = driver_df.append(driver, ignore_index=True)
 
-    print(driver_df)
+    return driver_df
+
