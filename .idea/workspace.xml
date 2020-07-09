@@ -4,12 +4,6 @@
     <list default="true" id="a24e70a8-a086-45ea-9166-62ab06364e7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/create_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/create_account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/data/resources/accounts.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/modules/data/resources/accounts.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/modules/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/html_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/html_parser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
