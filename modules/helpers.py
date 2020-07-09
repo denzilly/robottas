@@ -34,12 +34,15 @@ def get_drivers(html):
 
     driver_info_list = soup.findAll("li", {"class":"players-list__row"})
     for x in driver_info_list:
+
+        xpath = "// *[ @ id = \"" + x.findChildren("button", {"class": tags["xpath_id"]})[0].get('id') + " \" ]"
+
         driver = { "name" : x.findChildren("span",{"class":tags["name"]})[0].text.strip(),
                    "team": x.findChildren("li", {"class": tags["team"]})[0].text.strip(),
                    "picked": x.findChildren("li", {"class": tags["picked"]})[0].text.strip(),
                    "score": x.findChildren("li", {"class": tags["score"]})[0].text.strip(),
                    "price": x.findChildren("div", {"class": tags["price"]})[0].text.strip(),
-                   "xpath_id": f"""// *[ @ id = "{x.findChildren("button", {"class": tags["xpath_id"]})[0].get('id')}"]"""
+                   "xpath_id":  xpath
                 }
 
         driver_df = driver_df.append(driver, ignore_index=True)

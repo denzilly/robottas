@@ -14,9 +14,9 @@ from generator import get_name_email, get_dob, get_country
 from xpaths import get_xpaths
 from helpers import update_accounts_list, get_drivers
 
-drivers = ['N.Latifi', 'G. Russell', 'K. Magnussen', 'A. Giovinazzi', 'L. Stroll', 'S. Perez']
+drivers = ['N. Latifi', 'G. Russell', 'K. Magnussen', 'A. Giovinazzi', 'L. Stroll', 'S. Perez']
 
-def create_account():
+def create_account(drivers):
 
     driver = webdriver.Firefox(executable_path='data/resources/geckodriver.exe')
     driver.get("https://account.formula1.com/#/en/register?lead_source=web_fantasy&redirect=https%3A%2F%2Ffantasy.formula1.com%2Fteam%2Fcreate%3Ffrom%3Dsignup")
@@ -100,11 +100,14 @@ def create_account():
     driver_df = get_drivers(html)
     time.sleep(1)
     print(driver_df)
+    time.sleep(5)
+
 
     for x in drivers:
+        print(x)
         xpath = driver_df.loc[driver_df["name"] == x]["xpath_id"].item()
         print(xpath)
-        driver.find_element_by_xpath(xpath).click()
+        #driver.find_element_by_xpath(xpath).click()
         time.sleep(1)
 
 
@@ -116,5 +119,5 @@ def create_account():
 
 
 
-create_account()
+create_account(drivers)
 

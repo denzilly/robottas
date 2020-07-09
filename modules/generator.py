@@ -45,8 +45,6 @@ def get_name_email():
     full_name = first_name + " " + last_name
     print (full_name)
 
-
-
     r1 = randint(1,3)
     r2 = randint(1,3)
     r3 = randint(1,2)

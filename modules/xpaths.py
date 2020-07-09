@@ -1,12 +1,8 @@
 
 
-
-
 def get_xpaths():
     
     xpaths = {
-
-
 
     #create account page
     """title""" : """//*[@id="Title-input"]""",
