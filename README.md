@@ -1,6 +1,11 @@
 ## Robottas 
 #### F1 Fantasy Market Mover Bot
 
+
+![image](https://pbs.twimg.com/profile_images/1124674147257409537/0-vR0EBc_400x400.jpg)
+
+
+
 #### Done
 - create new account, login
 - get all current driver prices and status
