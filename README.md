@@ -20,6 +20,7 @@
 - right now trying to get browser to zoom out, to capture all drivers
 - select driver buttons from an xpath stored in the driver dataframe
 - store prices in excel per cycle to track changes over time
+- replace button xpath on login page with id or something else
 
 
 - make sure you can't spend more than 100m
