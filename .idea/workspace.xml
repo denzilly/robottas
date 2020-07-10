@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a24e70a8-a086-45ea-9166-62ab06364e7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/create_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/create_account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/data/resources/accounts.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/modules/data/resources/accounts.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/modules/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/xpaths.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/xpaths.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,6 +201,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="342" key="SettingsEditor/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594309979694" />
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1594397160882">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594397160882" />
     <state x="851" y="436" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1594323299201">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
