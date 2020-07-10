@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 def update_accounts_list(new_account):
 
-    path = os.path.dirname(os.path.abspath(__file__)) + "\\data\\resources\\accounts.xlsx"
+    path = os.path.dirname(os.path.abspath(__file__)) + "/data/resources/accounts.xlsx"
     df = pd.read_excel(path)
 
 

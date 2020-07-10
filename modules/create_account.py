@@ -3,10 +3,19 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import *
-import requests
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+
 from random import *
 import sys
 import time
+
+
+
+
+
+
 
 sys.path.insert(1, '/modules')
 
@@ -18,7 +27,7 @@ drivers = ['N. Latifi', 'G. Russell', 'K. Magnussen', 'A. Giovinazzi', 'L. Strol
 
 def create_account(drivers):
 
-    driver = webdriver.Firefox(executable_path='data/resources/geckodriver.exe')
+    driver = webdriver.Firefox(executable_path='data/resources/geckodriver')
     driver.get("https://account.formula1.com/#/en/register?lead_source=web_fantasy&redirect=https%3A%2F%2Ffantasy.formula1.com%2Fteam%2Fcreate%3Ffrom%3Dsignup")
 
     name_email = get_name_email()
@@ -35,27 +44,18 @@ def create_account(drivers):
         driver.find_element_by_xpath(field).send_keys(text)
 
     #wait for page to load before doing stuff on page. If pageload > 10 seconds, shut down
-    def element_load(element, *backupelement):
-        counter = 0
-        while True:
+    def element_load(element, delay, type):
+
+        if type == "class":
             try:
-                if counter % 2 == 0:
-                    print(driver.find_element_by_xpath(element).text)
-
-                else:
-                    print(driver.find_element_by_xpath(element).text)
-                time.sleep(2)
-                break
-            except:
-                if counter >= 50:
-                    print("Unknown pageload error")
-                    driver.close()
-                    sys.exit()
-                print("page not loaded yet")
-                time.sleep(0.1)
-                counter += 0.1
-
-
+                myElem = WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.CLASS_NAME, element)))
+            except TimeoutException:
+                print('timed out')
+        elif type == "xpath":
+            try:
+                myElem = WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.XPATH, element)))
+            except TimeoutException:
+                print('timed out')
 
 
     element_load(xpaths['title'])
@@ -76,7 +76,7 @@ def create_account(drivers):
     print("data entered")
 
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-    driver.find_element_by_xpath(xpaths['register_btn']).click()
+    driver.find_element_by_class_name("registrationform-submit").click()
 
 
     print(f"Account was created, adding credentials {name_email[2]},{password} to master list.")

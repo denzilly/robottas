@@ -20,11 +20,18 @@
 - right now trying to get browser to zoom out, to capture all drivers
 - select driver buttons from an xpath stored in the driver dataframe
 - store prices in excel per cycle to track changes over time
+- replace button xpath on login page with id or something else
 
 
 - make sure you can't spend more than 100m
 - fix pageload system to make shit faster
 - finally, headless mode, then bash scripting to run concurrent instances
+
+- dockerize the whole thing and get it running on the cloud 
+
+- create an alternative function just to monitor prices (and graph them, maybe? hosted online somewhere?)
+
+- create another function to login using existing accounts and push prices of drivers I hate down (screw you LH, doin my boy albon dirty like that)
 
 
 
