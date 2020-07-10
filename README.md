@@ -27,6 +27,12 @@
 - fix pageload system to make shit faster
 - finally, headless mode, then bash scripting to run concurrent instances
 
+- dockerize the whole thing and get it running on the cloud 
+
+- create an alternative function just to monitor prices (and graph them, maybe? hosted online somewhere?)
+
+- create another function to login using existing accounts and push prices of drivers I hate down (screw you LH, doin my boy albon dirty like that)
+
 
 
 
