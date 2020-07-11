@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bfaa8fa-3070-4567-a792-7e8c672a02ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0bfaa8fa-3070-4567-a792-7e8c672a02ee" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +48,28 @@
       <recent name="C:\Users\Bart\Documents\f1_fantasy\modules\data\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.create_webdriver">
+    <configuration name="create_webdriver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="f1_fantasy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/Scripts/python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/create_webdriver.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="helpers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="f1_fantasy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,34 +154,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="xpaths" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="f1_fantasy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/xpaths.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.create_webdriver" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.html_parser" />
         <item itemvalue="Python.helpers" />
-        <item itemvalue="Python.xpaths" />
       </list>
     </recent_temporary>
   </component>
@@ -184,13 +182,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'master' of https://github.com/denzilly/robottas&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
@@ -201,6 +198,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594310491179" />
+    <state x="1138" y="332" width="914" height="1208" key="#create_webdriver" timestamp="1594508689372">
+      <screen x="0" y="62" width="3200" height="1738" />
+    </state>
+    <state x="1138" y="332" width="914" height="1208" key="#create_webdriver/0.62.3200.1738@0.62.3200.1738" timestamp="1594508689372" />
     <state width="2539" height="409" key="GridCell.Tab.0.bottom" timestamp="1594502570018">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -233,10 +234,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2539" height="492" key="GridCell.Tab.1.right/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594323300124" />
-    <state x="781" y="342" key="SettingsEditor" timestamp="1594400399476">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="976" y="487" width="1522" height="1091" key="SettingsEditor" timestamp="1594509566556">
+      <screen x="0" y="62" width="3200" height="1738" />
     </state>
-    <state x="976" y="487" key="SettingsEditor/0.62.3200.1738@0.62.3200.1738" timestamp="1594329952324" />
+    <state x="976" y="487" width="1522" height="1091" key="SettingsEditor/0.62.3200.1738@0.62.3200.1738" timestamp="1594509566556" />
     <state x="781" y="342" key="SettingsEditor/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594400399476" />
     <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1594506469570">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -246,5 +247,15 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="851" y="436" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594323299201" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/helpers.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
