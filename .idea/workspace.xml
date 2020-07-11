@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bfaa8fa-3070-4567-a792-7e8c672a02ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/f1_fantasy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/f1_fantasy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/create_webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/create_webdriver.py" afterDir="false" />
-    </list>
+    <list default="true" id="0bfaa8fa-3070-4567-a792-7e8c672a02ee" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -239,10 +234,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2539" height="492" key="GridCell.Tab.1.right/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594323300124" />
-    <state x="976" y="487" key="SettingsEditor" timestamp="1594509182706">
+    <state x="976" y="487" width="1522" height="1091" key="SettingsEditor" timestamp="1594509566556">
       <screen x="0" y="62" width="3200" height="1738" />
     </state>
-    <state x="976" y="487" key="SettingsEditor/0.62.3200.1738@0.62.3200.1738" timestamp="1594509182706" />
+    <state x="976" y="487" width="1522" height="1091" key="SettingsEditor/0.62.3200.1738@0.62.3200.1738" timestamp="1594509566556" />
     <state x="781" y="342" key="SettingsEditor/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594400399476" />
     <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1594506469570">
       <screen x="0" y="0" width="2560" height="1400" />

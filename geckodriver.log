@@ -2040,3 +2040,31 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 1594502273551	Marionette	INFO	Listening on port 12102
 1594502273745	Marionette	WARN	TLS certificate errors will be ignored for this session
 1594502293234	Marionette	INFO	Stopped listening on port 12102
+1594509691718	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileR6V0u7"
+*** You are running in headless mode.
+1594509694479	Marionette	INFO	Listening on port 33743
+1594509694553	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594509712722	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1594509717415	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1594509736043	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevvnhiZ"
+*** You are running in headless mode.
+1594509739415	Marionette	INFO	Listening on port 44829
+1594509739495	Marionette	WARN	TLS certificate errors will be ignored for this session
+1594509756250	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1594509769546	Marionette	INFO	Stopped listening on port 44829
+1594510147358	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilead7o8J"
+*** You are running in headless mode.
+1594510150427	Marionette	INFO	Listening on port 39327
+1594510150469	Marionette	WARN	TLS certificate errors will be ignored for this session
