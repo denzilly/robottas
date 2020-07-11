@@ -11,20 +11,22 @@
 - get all current driver prices and status
 - get driver add buton xpaths
 - store newly created accounts in accounts.xlsx
-
-
+- replace button xpath on login page with id or something else (DONE)
+- select driver buttons from an xpath stored in the driver dataframe (DONE)
+- fix names with accents (DONE (scottish names lol))
+- fix pageload system to make shit faster (DONE)
 #### TODO
 
-- fix names with accents
-- weird xpaths
-- right now trying to get browser to zoom out, to capture all drivers
-- select driver buttons from an xpath stored in the driver dataframe
-- store prices in excel per cycle to track changes over time
-- replace button xpath on login page with id or something else
 
+- weird xpaths (PARTIALLY DONE)
+- right now trying to get browser to zoom out, to capture all drivers (DONE)
+
+- store prices in excel per cycle to track changes over time 
+
+- Countries
 
 - make sure you can't spend more than 100m
-- fix pageload system to make shit faster
+
 - finally, headless mode, then bash scripting to run concurrent instances
 
 - dockerize the whole thing and get it running on the cloud 

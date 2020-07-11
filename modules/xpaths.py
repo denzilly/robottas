@@ -20,7 +20,25 @@ def get_xpaths():
     #landing page
     """add_driver""" : """// *[ @ id = "ember295"]""",
     """add_driver_alt""": """// *[ @ id = "ember296"]""",
+    """add_driver_class""" : """player-slot__header__icon""",
 
+
+
+    #Driver select
+    """driver_card""" : """lineup-picker__card__body""",
+
+
+    #Constructor Select
+    """driver_next""" : """lineup-picker__sidebar__next-button""",
+
+
+    #Turbo driver
+    """turbo_driver""" : """player-slot__checkbox""",
+    """turbo_next""" : """modal__footer__use-action""",
+
+    #fav team
+    """fav_team""" : """teams-favourite-picker__list__row--value-1""",
+    """fav_team_next""" : """modal__footer__use-action"""
     }
     return xpaths
 

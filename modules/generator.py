@@ -33,14 +33,14 @@ def get_name_email():
 
 
     #Select first and last name at random from a list
-    firstnum = randint(1,9500)
-    lastnum = randint(1,9500)
+    firstnum = randint(1,7435)
+    lastnum = randint(1,999)
     
 
 
     #seperate call statements because we need these for the emails
-    first_name = csv_scrape(firstnum,'data/resources/voornamen.csv')[0]
-    last_name = csv_scrape(lastnum,'data/resources/achternamen.csv')[0]
+    first_name = csv_scrape(firstnum,'modules/data/resources/voornamen.csv')[0]
+    last_name = csv_scrape(lastnum,'modules/data/resources/achternamen.csv')[0]
 
     full_name = first_name + " " + last_name
     print (full_name)
@@ -109,6 +109,6 @@ def get_dob():
 
 def get_country():
 
-   return csv_scrape(randint(1,249), 'data/resources/ISO_countries.csv')
+   return csv_scrape(randint(1,200), 'modules/data/resources/ISO_countries.csv')
 
 
