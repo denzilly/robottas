@@ -20,24 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bfaa8fa-3070-4567-a792-7e8c672a02ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/create_webdriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/f1_fantasy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/f1_fantasy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/create_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/create_account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/data/resources/ISO_countries.csv" beforeDir="false" afterPath="$PROJECT_DIR$/modules/data/resources/ISO_countries.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/data/resources/accounts.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/data/resources/achternamen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/modules/data/resources/achternamen.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/data/resources/voornamen.csv" beforeDir="false" afterPath="$PROJECT_DIR$/modules/data/resources/voornamen.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/modules/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/helpers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/html_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/html_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/source.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/xpaths.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/xpaths.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/create_webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/create_webdriver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +53,7 @@
       <recent name="C:\Users\Bart\Documents\f1_fantasy\modules\data\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.test">
     <configuration name="helpers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="f1_fantasy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.html_parser" />
         <item itemvalue="Python.helpers" />
         <item itemvalue="Python.xpaths" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -219,22 +204,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594310491179" />
-    <state width="2539" height="409" key="GridCell.Tab.0.bottom" timestamp="1594502268743">
+    <state width="2539" height="409" key="GridCell.Tab.0.bottom" timestamp="1594502570018">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="409" key="GridCell.Tab.0.bottom/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594502268743" />
-    <state width="2539" height="409" key="GridCell.Tab.0.center" timestamp="1594502268743">
+    <state width="2539" height="409" key="GridCell.Tab.0.bottom/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594502570018" />
+    <state width="2539" height="409" key="GridCell.Tab.0.center" timestamp="1594502570018">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="409" key="GridCell.Tab.0.center/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594502268743" />
-    <state width="2539" height="409" key="GridCell.Tab.0.left" timestamp="1594502268743">
+    <state width="2539" height="409" key="GridCell.Tab.0.center/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594502570018" />
+    <state width="2539" height="409" key="GridCell.Tab.0.left" timestamp="1594502570018">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="409" key="GridCell.Tab.0.left/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594502268743" />
-    <state width="2539" height="409" key="GridCell.Tab.0.right" timestamp="1594502268743">
+    <state width="2539" height="409" key="GridCell.Tab.0.left/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594502570018" />
+    <state width="2539" height="409" key="GridCell.Tab.0.right" timestamp="1594502570018">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="409" key="GridCell.Tab.0.right/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594502268743" />
+    <state width="2539" height="409" key="GridCell.Tab.0.right/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594502570018" />
     <state width="2539" height="492" key="GridCell.Tab.1.bottom" timestamp="1594323300124">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -256,10 +241,10 @@
     </state>
     <state x="976" y="487" key="SettingsEditor/0.62.3200.1738@0.62.3200.1738" timestamp="1594329952324" />
     <state x="781" y="342" key="SettingsEditor/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594400399476" />
-    <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1594482360958">
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1594506469570">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="976" y="524" key="com.intellij.ide.util.TipDialog/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594482360958" />
+    <state x="976" y="524" key="com.intellij.ide.util.TipDialog/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594506469570" />
     <state x="851" y="436" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1594323299201">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
