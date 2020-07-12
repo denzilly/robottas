@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bfaa8fa-3070-4567-a792-7e8c672a02ee" name="Default Changelist" comment="" />
+    <list default="true" id="0bfaa8fa-3070-4567-a792-7e8c672a02ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/data/logs/accounts.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/modules/data/logs/accounts.xlsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../f1-fantasy-prices.github.io" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -202,6 +206,10 @@
       <screen x="0" y="62" width="3200" height="1738" />
     </state>
     <state x="1138" y="332" width="914" height="1208" key="#create_webdriver/0.62.3200.1738@0.62.3200.1738" timestamp="1594508689372" />
+    <state x="1282" y="569" key="FileChooserDialogImpl" timestamp="1594549599097">
+      <screen x="0" y="62" width="3200" height="1738" />
+    </state>
+    <state x="1282" y="569" key="FileChooserDialogImpl/0.62.3200.1738@0.62.3200.1738" timestamp="1594549599097" />
     <state width="2539" height="409" key="GridCell.Tab.0.bottom" timestamp="1594502570018">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

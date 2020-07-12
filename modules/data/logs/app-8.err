@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/home/bart/programming/robottas/main.py", line 21, in <module>
+    webdriver = create_webdriver()
+  File "/home/bart/programming/robottas/modules/create_webdriver.py", line 20, in create_webdriver
+    driver = webdriver.Firefox(executable_path= path + 'geckodriver', options = options)
+  File "/home/bart/.local/lib/python3.8/site-packages/selenium/webdriver/firefox/webdriver.py", line 170, in __init__
+    RemoteWebDriver.__init__(
+  File "/home/bart/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/home/bart/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/home/bart/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/bart/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: connection refused
+
