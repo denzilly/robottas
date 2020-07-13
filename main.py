@@ -1,6 +1,6 @@
 
 from modules.create_webdriver import create_webdriver
-from modules.generator import get_name_email, get_dob, get_country
+
 from modules.get_prices import get_prices
 import time
 

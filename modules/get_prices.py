@@ -1,13 +1,8 @@
-from selenium.webdriver import ActionChains
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import Select
 
-from modules.generator import get_name_email, get_dob, get_country
 from modules.xpaths import get_xpaths
 from modules.helpers import *
 
-from random import *
-import sys
+
 
 import time
 
