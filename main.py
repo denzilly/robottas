@@ -1,7 +1,7 @@
 
 from modules.create_webdriver import create_webdriver
 from modules.generator import get_name_email, get_dob, get_country
-from modules.create_account import create_account
+from modules.get_prices import get_prices
 import time
 
 
@@ -17,15 +17,24 @@ team = "Alfa Romeo"
 
 if __name__ == '__main__':
 
+    for x in range(10):
 
-    webdriver = create_webdriver()
-    webdriver.get("https://account.formula1.com/#/en/register?lead_source=web_fantasy&redirect=https%3A%2F%2Ffantasy.formula1.com%2Fteam%2Fcreate%3Ffrom%3Dsignup")
+        webdriver = create_webdriver()
+        webdriver.get("https://fantasy.formula1.com/team/1?week=3")
 
-    #Creates an account with given drivers
-    create_account(webdriver, selected_drivers, team)
+        credentials = {
+            'username' : 'bstevensonssss@gmail.com',
+            'password' : 'ferrari'
+        }
 
-    print("--- %s seconds ---" % (time.time() - start_time))
+        #Creates an account with given drivers
+        try:
+            get_prices(webdriver, credentials)
+        except:
+            print ("Unexpected error:", sys.exc_info()[0])
+            raise
+        print("--- %s seconds ---" % (time.time() - start_time))
 
-    time.sleep(5)
-    webdriver.close()
+        time.sleep(5)
+        webdriver.close()
 

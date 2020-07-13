@@ -20,7 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d0438cf-09f9-46ed-b9d9-471ceb8fb83c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/create_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/get_prices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/create_webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/create_webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/xpaths.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/xpaths.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../f1-fantasy-prices.github.io" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../f1fantasyprices.github.io" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -50,7 +58,7 @@
       <recent name="C:\Users\Bart\Documents\f1_fantasy\modules\data\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.create_webdriver">
+  <component name="RunManager" selected="Python.main">
     <configuration name="create_webdriver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="f1_fantasy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,7 +80,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="helpers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="get_prices" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="f1_fantasy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,7 +92,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/helpers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/get_prices.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.create_webdriver" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.get_prices" />
+        <item itemvalue="Python.create_webdriver" />
         <item itemvalue="Python.html_parser" />
-        <item itemvalue="Python.helpers" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +185,28 @@
       <option name="presentableId" value="Default" />
       <updated>1594309940311</updated>
     </task>
+    <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/denzilly/robottas&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1594628813497</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594628813497</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Merge branch 'master' of https://github.com/denzilly/robottas&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1594628852185</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594628852185</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge branch 'master' of https://github.com/denzilly/robottas&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1594628881628</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594628881628</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,30 +235,31 @@
       <screen x="0" y="62" width="3200" height="1738" />
     </state>
     <state x="1138" y="332" width="914" height="1208" key="#create_webdriver/0.62.3200.1738@0.62.3200.1738" timestamp="1594508689372" />
-    <state x="908" y="264" key="CommitChangelistDialog2" timestamp="1594628851813">
+    <state x="908" y="264" key="CommitChangelistDialog2" timestamp="1594628881278">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="908" y="264" key="CommitChangelistDialog2/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594628851813" />
-    <state x="1282" y="569" key="FileChooserDialogImpl" timestamp="1594549599097">
-      <screen x="0" y="62" width="3200" height="1738" />
+    <state x="908" y="264" key="CommitChangelistDialog2/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594628881278" />
+    <state x="1026" y="408" key="FileChooserDialogImpl" timestamp="1594664229390">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1282" y="569" key="FileChooserDialogImpl/0.62.3200.1738@0.62.3200.1738" timestamp="1594549599097" />
-    <state width="2539" height="409" key="GridCell.Tab.0.bottom" timestamp="1594502570018">
+    <state x="1026" y="408" key="FileChooserDialogImpl/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594664229390" />
+    <state width="1269" height="401" key="GridCell.Tab.0.bottom" timestamp="1594664636540">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="409" key="GridCell.Tab.0.bottom/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594502570018" />
-    <state width="2539" height="409" key="GridCell.Tab.0.center" timestamp="1594502570018">
+    <state width="1269" height="401" key="GridCell.Tab.0.bottom/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594664636540" />
+    <state width="1269" height="401" key="GridCell.Tab.0.center" timestamp="1594664636539">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="409" key="GridCell.Tab.0.center/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594502570018" />
-    <state width="2539" height="409" key="GridCell.Tab.0.left" timestamp="1594502570018">
+    <state width="1269" height="401" key="GridCell.Tab.0.center/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594664636539" />
+    <state width="1269" height="401" key="GridCell.Tab.0.left" timestamp="1594664636539">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="409" key="GridCell.Tab.0.left/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594502570018" />
-    <state width="2539" height="409" key="GridCell.Tab.0.right" timestamp="1594502570018">
+    <state width="1269" height="401" key="GridCell.Tab.0.left/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594664636539" />
+    <state width="1269" height="401" key="GridCell.Tab.0.right" timestamp="1594664636540">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="409" key="GridCell.Tab.0.right/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594502570018" />
+    <state width="1269" height="401" key="GridCell.Tab.0.right/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594664636540" />
     <state width="2539" height="492" key="GridCell.Tab.1.bottom" timestamp="1594323300124">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -250,6 +281,10 @@
     </state>
     <state x="976" y="487" width="1522" height="1091" key="SettingsEditor/0.62.3200.1738@0.62.3200.1738" timestamp="1594509566556" />
     <state x="781" y="342" key="SettingsEditor/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594400399476" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1594628884501">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594628884501" />
     <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1594506469570">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -265,6 +300,14 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/modules/helpers.py</url>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/get_prices.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/create_webdriver.py</url>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

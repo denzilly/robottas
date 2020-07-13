@@ -6,7 +6,7 @@ import os
 
 def create_webdriver():
     options = Options()
-    options.headless = True
+    #options.headless = True
 
     path = os.path.dirname(os.path.abspath(__file__)) + "/data/resources/"
 
