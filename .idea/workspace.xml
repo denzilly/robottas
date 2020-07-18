@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d0438cf-09f9-46ed-b9d9-471ceb8fb83c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9d8919b1-c175-4a14-a0c0-5c17b3d6f98d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/data/logs/accounts.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/modules/data/logs/accounts.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
       <recent name="C:\Users\Bart\Documents\f1_fantasy\modules\data\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.create_webdriver">
+  <component name="RunManager" selected="Python.main">
     <configuration name="create_webdriver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="f1_fantasy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,9 +160,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.create_webdriver" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.html_parser" />
         <item itemvalue="Python.helpers" />
       </list>
@@ -264,22 +265,22 @@
       <screen x="0" y="62" width="3200" height="1738" />
     </state>
     <state x="1282" y="569" key="FileChooserDialogImpl/0.62.3200.1738@0.62.3200.1738" timestamp="1594549599097" />
-    <state width="2539" height="409" key="GridCell.Tab.0.bottom" timestamp="1594502570018">
+    <state width="2539" height="409" key="GridCell.Tab.0.bottom" timestamp="1595070003477">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="409" key="GridCell.Tab.0.bottom/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594502570018" />
-    <state width="2539" height="409" key="GridCell.Tab.0.center" timestamp="1594502570018">
+    <state width="2539" height="409" key="GridCell.Tab.0.bottom/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595070003477" />
+    <state width="2539" height="409" key="GridCell.Tab.0.center" timestamp="1595070003477">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="409" key="GridCell.Tab.0.center/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594502570018" />
-    <state width="2539" height="409" key="GridCell.Tab.0.left" timestamp="1594502570018">
+    <state width="2539" height="409" key="GridCell.Tab.0.center/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595070003477" />
+    <state width="2539" height="409" key="GridCell.Tab.0.left" timestamp="1595070003476">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="409" key="GridCell.Tab.0.left/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594502570018" />
-    <state width="2539" height="409" key="GridCell.Tab.0.right" timestamp="1594502570018">
+    <state width="2539" height="409" key="GridCell.Tab.0.left/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595070003476" />
+    <state width="2539" height="409" key="GridCell.Tab.0.right" timestamp="1595070003477">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="409" key="GridCell.Tab.0.right/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594502570018" />
+    <state width="2539" height="409" key="GridCell.Tab.0.right/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1595070003477" />
     <state width="2539" height="492" key="GridCell.Tab.1.bottom" timestamp="1594323300124">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

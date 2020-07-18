@@ -2233,3 +2233,13 @@ webdriverClickElement@chrome://marionette/content/interaction.js:182:31
 *** You are running in headless mode.
 *** You are running in headless mode.
 *** You are running in headless mode.
+1595069982923	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Bart\\AppData\\Local\\Temp\\rust_mozprofileesUieq"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1595069984864	Marionette	INFO	Listening on port 1971
+1595069984929	Marionette	WARN	TLS certificate errors will be ignored for this session
+1595070006912	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Bart\\AppData\\Local\\Temp\\rust_mozprofileIv1mOm"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1595070008369	Marionette	INFO	Listening on port 2076
+1595070008418	Marionette	WARN	TLS certificate errors will be ignored for this session
