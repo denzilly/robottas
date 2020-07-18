@@ -18,7 +18,7 @@
 - only choose countries from those that are actually available
 - zoom out to capture all drivers in list (using keypress action chains)
 - Headless mode (add option=options headless)
-- Run concurrent instances (using supervisord in linux with robottas.conf)
+- Run concurrent instances (using supervisor in linux with robottas.conf)
 
 
 #### TODO
