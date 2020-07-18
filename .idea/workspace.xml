@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d0438cf-09f9-46ed-b9d9-471ceb8fb83c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,6 +178,28 @@
       <option name="presentableId" value="Default" />
       <updated>1594309940311</updated>
     </task>
+    <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/denzilly/robottas&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1594628813497</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594628813497</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Merge branch 'master' of https://github.com/denzilly/robottas&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1594628852185</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594628852185</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge branch 'master' of https://github.com/denzilly/robottas&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1594628881628</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594628881628</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,10 +228,10 @@
       <screen x="0" y="62" width="3200" height="1738" />
     </state>
     <state x="1138" y="332" width="914" height="1208" key="#create_webdriver/0.62.3200.1738@0.62.3200.1738" timestamp="1594508689372" />
-    <state x="908" y="264" key="CommitChangelistDialog2" timestamp="1594628851813">
+    <state x="908" y="264" key="CommitChangelistDialog2" timestamp="1594628881278">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="908" y="264" key="CommitChangelistDialog2/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594628851813" />
+    <state x="908" y="264" key="CommitChangelistDialog2/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594628881278" />
     <state x="1282" y="569" key="FileChooserDialogImpl" timestamp="1594549599097">
       <screen x="0" y="62" width="3200" height="1738" />
     </state>
@@ -250,6 +273,10 @@
     </state>
     <state x="976" y="487" width="1522" height="1091" key="SettingsEditor/0.62.3200.1738@0.62.3200.1738" timestamp="1594509566556" />
     <state x="781" y="342" key="SettingsEditor/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594400399476" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1594628884501">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594628884501" />
     <state x="976" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1594506469570">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -258,6 +285,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="851" y="436" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@0.0.2560.1400" timestamp="1594323299201" />
+    <state x="1823" y="-855" key="search.everywhere.popup" timestamp="1594663817561">
+      <screen x="1200" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="1823" y="-855" key="search.everywhere.popup/1200.-1080.1920.1040/-480.-1050.1680.1010/0.0.2560.1400@1200.-1080.1920.1040" timestamp="1594663817561" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
